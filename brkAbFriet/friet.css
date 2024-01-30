@@ -1,0 +1,7 @@
+#friet ul {
+    list-style-type: none;
+    display: flex;
+}
+#friet ul li{
+    margin-right: 10px;
+}

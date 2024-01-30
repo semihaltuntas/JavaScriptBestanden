@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <script src="fastfood.js" defer></script>
+    <title>Fastfood</title>
+    <link rel="icon" href="javascript.ico" type="image/x-icon">
+    <link rel="stylesheet" href="default.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend id="hamburgersLegend">Hamburger (<span id="aantalHamburgers"></span> soorten)</legend>
+        <select id="hamburgers" size="5" autofocus>
+            <option value="1234">Hamburger</option>
+            <option value="5678">Fishburger</option>
+            <option value="9012">Cheeseburger</option>
+            <option value="3456">Chickenburger</option>
+            <option value="7890">Veggieburger</option>
+            <option value="1357">Bickyburger</option>
+            <option value="2456">Mexicanburger</option>
+            <option value="8024">Brazucaburger</option>
+            <option value="1470">Blackangusburger</option>
+            <option value="2581">Lamsburger</option>
+            <option value="9876">Camenbertburger</option>            
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Friet: (<span id="aantalFrieten"></span> soorten)</legend>
+        <label><input type="radio" name="friet" value="5">Small</label>
+        <label><input type="radio" name="friet" value="3">Medium</label>
+        <label><input type="radio" name="friet" value="1">Large</label>
+    </fieldset>
+    <fieldset>
+        <legend>Dessert (kies één of meerdere) (<span id="aantalDesserts"></span> soorten)</legend>
+        <label><input type="checkbox" name="dessert" value="6">Fruit</label>
+        <label><input type="checkbox" name="dessert" value="4">Ijsje</label>
+        <label><input type="checkbox" name="dessert" value="2">Muffin</label>
+    </fieldset>
+    <div>Uw keuzes:</div>
+    <div id="keuzeBurger"></div>
+    <div id="keuzeFriet"></div>
+    <div id="keuzeDessert"></div>
+
+
+</body>
+
+</html>

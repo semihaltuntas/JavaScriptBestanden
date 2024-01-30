@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <script src="geslachten.js" defer></script>
+    <link rel="icon" href="javascript.ico" type="image/x-icon">
+    <link rel="stylesheet" href="default.css">
+    <title>Geslachten</title>
+</head>
+
+<body>
+    <div id="nietGevonden" hidden class="fout">Data niet gevonden!</div>
+    <div>
+        <ul>
+            <li><a href="#" id="mannen">Mannen</a></li>
+            <li><a href="#" id="vrouwen">Vrouwen</a></li>
+            <li><a href="#" id="alle">Alle</a></li>
+        </ul>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Voornaam</th>
+                <th>Familienaam</th>
+                <th>Geslacht</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody id="personenData"></tbody>
+    </table>
+</body>
+</html>

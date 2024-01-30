@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <script src="delen.js" defer></script>
+    <link rel="icon" href="javascript.ico" type="image/x-icon">
+    <link rel="stylesheet" href="default.css">
+    <title>Delen</title>
+</head>
+
+<body>
+    <label>Getal 1:
+        <span id="getal1Fout" hidden class="fout">Dit moet een getal groter of gelijk aan Nul.</span>
+        <input id="getal1" autofocus required type="number" min="0">
+    </label><br>
+    <label>Getal 2:
+        <span id="getal2Fout" hidden class="fout">Dit moet groter is dan nul.</span>
+        <input id="getal2" required type="number" min="1"></label>
+    </label><br>
+    <button id="delen">Delen</button>
+    <span id="verdeeld" hidden class="feedback"></span>
+</body>
+
+</html>
